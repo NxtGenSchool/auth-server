@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+server:
+  port: 5050
+
+---
+
+spring:
+  profiles: test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
