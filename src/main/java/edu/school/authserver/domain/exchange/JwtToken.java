@@ -1,13 +1,13 @@
 package edu.school.authserver.domain.exchange;
 
 public class JwtToken {
-    private String toeken;
+    private String token;
 
-    public String getToeken() {
-        return toeken;
+    public String getToken() {
+        return token;
     }
 
-    public void setToeken(String toeken) {
-        this.toeken = toeken;
+    public void setToken(String token) {
+        this.token = token;
     }
 }
